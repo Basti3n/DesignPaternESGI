@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using ConsoleApplication1.Properties;
 
 namespace ConsoleApplication1
 {
@@ -6,8 +8,14 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            Kebab kebab = new Kebab(true, true, false, true);
-            Console.Out.WriteLine(kebab.IsAllVeggie());
+            List<Ingredient> ingredients = new List<Ingredient>();
+            ingredients.Add(new Ingredient("Pomme", true,false));
+            ingredients.Add(new Ingredient("salade", false,false));
+            ingredients.Add(new Ingredient("tomate", false,true));
+            ingredients.Add(new Ingredient("poisson", true,true));
+            Kebab kebab = new Kebab();
+            Console.Out.WriteLine(kebab.IsAllVeggie(ingredients));
+            Console.Out.WriteLine(kebab.IsAllPescetarien(ingredients));
         }
     }
 }

@@ -1,23 +1,30 @@
-﻿namespace ConsoleApplication1
+﻿using System.Collections.Generic;
+using ConsoleApplication1.Properties;
+
+namespace ConsoleApplication1
 {
     public class Kebab
     {
-        private bool salade;
-        private bool tomate;
-        private bool oignon;
-        private bool viande;
+        
 
-        public Kebab(bool salade, bool tomate, bool oignon, bool viande)
+        public bool IsAllVeggie(List<Ingredient> ingredients)
         {
-            this.salade = salade;
-            this.tomate = tomate;
-            this.oignon = oignon;
-            this.viande = viande;
+            foreach (var item in ingredients)
+            {
+                if (!item.isVeggie()) return false;
+            }
+
+            return true;
         }
         
-        public bool IsAllVeggie()
+        public bool IsAllPescetarien(List<Ingredient> ingredients)
         {
-            return salade && tomate && oignon;
+            foreach (var item in ingredients)
+            {
+                if (!item.isPescetarien()) return false;
+            }
+
+            return true;
         }
     }
 }
