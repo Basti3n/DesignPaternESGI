@@ -1,0 +1,5 @@
+E:\Autre\Ecole\ESGI\4AL\Design_pattern\Cours 1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\Autre\Ecole\ESGI\4AL\Design_pattern\Cours 1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\Autre\Ecole\ESGI\4AL\Design_pattern\Cours 1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+E:\Autre\Ecole\ESGI\4AL\Design_pattern\Cours 1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\Autre\Ecole\ESGI\4AL\Design_pattern\Cours 1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

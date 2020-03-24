@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Bastien\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Bastien\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ConsoleApplication1.2113554279.00" t="ExcludeRecursive" />
+    <e p="E:\Autre\Ecole\ESGI\4AL\Design_pattern\Cours 1\ConsoleApplication1" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ConsoleApplication1.csproj" t="IncludeRecursive" />
+      <e p="ConsoleApplication1.sln" t="IncludeFlat" />
+      <e p="Kebab.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
